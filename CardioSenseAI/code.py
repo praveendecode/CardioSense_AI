@@ -20,11 +20,6 @@ from sklearn.tree import DecisionTreeClassifier
 st.set_page_config(page_title='CardioSense AI By Praveen', layout="wide")
 
 
-# Mongo Db Connectivity
-praveen_1 = pm.MongoClient(
-    'mongodb://praveen:praveenroot@ac-cd7ptzz-shard-00-00.lsdge0t.mongodb.net:27017,ac-cd7ptzz-shard-00-01.lsdge0t.mongodb.net:27017,ac-cd7ptzz-shard-00-02.lsdge0t.mongodb.net:27017/?ssl=true&replicaSet=atlas-ac7cyd-shard-0&authSource=admin&retryWrites=true&w=majority')
-db = praveen_1['Feedback_CardioSenseAI']
-collection = db['comment']
 class CardioSense_AI:
 
     def process(self):
