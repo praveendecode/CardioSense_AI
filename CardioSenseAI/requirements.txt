@@ -1,0 +1,8 @@
+pandas
+streamlit
+streamlit-option-menu
+streamlit-extras
+streamlit-lottie
+streamlit-extras-colors
+pymongo
+scikit-learn
